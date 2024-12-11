@@ -1,0 +1,113 @@
+body{
+    /* background-image: url("tablephoto.jpeg"); */
+    background:linear-gradient(to right,rgb(0, 0, 0),indigo,rgb(43, 2, 54),white,rgb(0, 221, 255));
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    height:1000px;
+}
+h1{
+    padding: 10px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3{
+    color: cornflowerblue;
+}
+
+.intro{
+    padding: 50PX;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    text-align: center;
+}
+
+
+a:hover{
+    color:rgb(0, 221, 255);
+    padding: 30px;
+    text-align: center;
+
+}
+a{
+    padding: 30px;
+    text-align: center;
+    color: azure;
+}
+nav{
+    display: inline-flex;
+    padding-bottom: 30px;
+}
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+.content2{
+    display:grid ;
+    
+    color:rgb(0, 221, 255);
+    text-align: center;
+    border-radius: 75px;
+    font-size: larger;
+    padding: 500px;
+    /* align-content: center; */
+    
+}
+
+.image{
+    justify-content: end;
+    padding-left: 200px;
+    display: grid;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+.plain{
+    background-color:rgb(0, 221, 255);
+    height: 200px;
+    width: 30px;
+}
+.plain2{
+    background-color:white;
+    height: 150px;
+    width: 30px;
+}
+.plain3{
+    background-color:rgb(43, 2, 54);
+    height: 100px;
+    width: 30px;
+}
+.deco{
+    display: flex;
+    border-bottom: 45%;
+}
+
+
+
+/* .row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 200px;
+    padding: 50px; }*/
+
+/* .content{
+    display:grid ;
+    justify-content: space-between;
+    color:rgb(0, 221, 255);
+    padding-top: 800px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: larger;
+} */
+
+/* a{
+    padding: 20px;
+    text-align: center;
+    color: azure;
+    /* background-color: darkcyan; 
+} */
+/* footer{
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+} */
